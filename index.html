@@ -5,6 +5,11 @@
 	<!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch&family=Open+Sans&display=swap" rel="stylesheet">
+    <!-- CSS -->
     <link rel="stylesheet" type="text/css" href="index.css">
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
@@ -17,25 +22,24 @@
 		<!-- NavBar Start -->
 		<div>
 			<nav class="navbar navbar-expand-lg navbar-light bg-transparent" id="fornav">
-			  <a class="navbar-brand" href="#">
+			  <a class="navbar-brand font-weight-bold" href="#">
 			    <img src="./images/jlogo.png" width="30" height="30" class="d-inline-block align-top" alt="">
 			    Julius Caesar Bautista
-			    <p class="d-inline font-weight-light">- Full-Stack Web Developer</p>
 			  </a>
 			  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 			      <span class="navbar-toggler-icon"></span>
 			    </button>
 
-			    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+			    <div class="collapse navbar-collapse font-weight-bold" id="navbarSupportedContent">
 			      <ul class="navbar-nav ml-auto">
 			        <li class="nav-item">
-			          <a class="nav-link" href="#">Link 1</a>
+			          <a class="nav-link" href="#sH1">Projects</a>
 			        </li>
 			        <li class="nav-item">
-			          <a class="nav-link" href="#">Link 2</a>
+			          <a class="nav-link" href="#sH2">Tools</a>
 			        </li>
 			        <li class="nav-item">
-			          <a class="nav-link" href="#">Link 3</a>
+			          <a class="nav-link" href="#sH3">Contact</a>
 			        </li>
 			      </ul>
 			    </div>
@@ -43,19 +47,33 @@
 		</div>
 		<!-- NavBar End -->
 		<!-- Main Content start -->
-		<div class="container-fluid">
-			<div>
-				<img class="img-fluid float-right" src="./images/good3.png" id="good3">
+		<div class="container-fluid min-vh-100">
+			<div class="d-flex row d-sm-block d-md-inline" id="good3parent">
+				<img class="img-fluid col-sm-8 col-md-6 col-xl-4 float-right" src="./images/good3.png" id="good3">
+			</div>
+			<div class="d-flex row d-sm-block d-md-inline" id="intro">
+				<h2 class="font-weight-bolder ml-1 col-sm-6 col-md-4 col-xl-2" id="hi">Hi! I`m Julius</h2>
+				<h3 class="font-weight-bold text-muted ml-2 col-sm-4 col-md-6 col-xl-8" id="fswd">Full-Stack Web Developer</h3>
+				<p class="lead ml-3 col-sm-4 col-md-6 col-xl-8" id="psn">Passionate creating interactive websites, currently based in Bulacan</p>
 			</div>
 		</div>
-		<!-- Main Content start -->
+		<!-- Main Content end -->
+		<div data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-offset="0" class="scrollspy-example container-fluid" tabindex="0">
+		  	<div class="container-fluid min-vh-100">
+		  		<h1 id="sH1">Projects</h1>
+		  		<p>Web Developer Portfolio</p>
+		 	</div>
+		  	<div class="container-fluid min-vh-100">
+				<h4 id="sH2">Tools</h4>
+		  		<p>...</p>
+		  	</div>
+		  	<div class="container-fluid min-vh-100">
+				<h4 id="sH3">Contact</h4>
+		  		<p>...</p>
+		  	</div>
+		</div>
 	</div>
-	<div class="container-fluid min-vh-100">
-		
-	</div>
-	<div class="container-fluid min-vh-100">
-		
-	</div>
+	
 	
 
 
@@ -63,4 +81,5 @@
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
 </body>
+<a href="#" class="top">Back to Top</a>
 </html>

@@ -1,25 +1,107 @@
+* {
+	font-family: 'Chakra Petch';
+}
+
 html {
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
+	scroll-behavior: smooth;
 }
 
 body {
 	background-image: url(./images/bgpastel.jpg);
+	background-color: black;
+	opacity: 1;
+	display: grid;
+	grid-template-columns: auto 0px;
+}
+
+body::-webkit-scrollbar {
+	display: none;
 }
 
 nav {
 	height: 8vh;
 	widows: 100vw;
-	background-color: red;
 	position: relative;
 	animation-name: fornav;
 	animation-duration: 3s;
-	animation-delay: 1s;
+	animation-delay: 0s;
 }
 
 @keyframes fornav {
-	0% {background-color: red; top: -100px;}
-	100% {background-color: red; top: 0px;}
+	0% {top: -100px;}
+	100% {top: 0px;}
 }
 
+#good3 {
+	height: 500px;
+	width: 600px;
+	margin-top: 10vh;
+	position: relative;
+	animation-name:  good3;
+	animation-duration: 4s;
+	animation-delay: 0s;
+	transition: transform 250ms;
+	filter: drop-shadow(0 0 0.75rem rgb(255, 217, 0));
+}
+@keyframes good3 {
+	0% {right: -400px;}
+	100% {right: 0px;}
+}
+
+#good3:hover {
+	height: 500px;
+	width: 600px;
+	margin-top: 10vh;
+	position: relative;
+	transform: translateY(-10px);
+	filter: drop-shadow(0 0 0.75rem rgb(255, 217, 255));
+}
+
+#intro {
+	position: relative;
+	animation-name: intro;
+	animation-duration: 5s;
+	animation-delay: 0s;
+}
+@keyframes intro {
+	0% {left: -800px;}
+	100% {left: 0px;}
+}
+
+
+.top {
+  --offset: 50px; 
+  
+  position: sticky;
+  bottom: 20px;      
+  margin-right:10px; 
+  place-self: end;
+  margin-top: calc(100vh + var(--offset));
+  
+  text-decoration: none;
+  padding: 10px;
+  font-family: sans-serif;
+  color: #fff;
+  background: palevioletred;
+  border-radius: 100px;
+  white-space: nowrap;
+}
+
+#hi {
+	font-size: 5rem;
+}
+
+#fswd {
+	font-size: 4rem;
+}
+
+#psn {
+	font-size: 2rem;
+}
+
+#sH1 {
+	font-size: 5rem;
+}
