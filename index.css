@@ -1,0 +1,25 @@
+html {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background-image: url(./images/bgpastel.jpg);
+}
+
+nav {
+	height: 8vh;
+	widows: 100vw;
+	background-color: red;
+	position: relative;
+	animation-name: fornav;
+	animation-duration: 3s;
+	animation-delay: 1s;
+}
+
+@keyframes fornav {
+	0% {background-color: red; top: -100px;}
+	100% {background-color: red; top: 0px;}
+}
+
