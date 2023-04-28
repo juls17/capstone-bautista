@@ -11,6 +11,7 @@ html {
 
 body {
 	background-image: url(./images/bgcosmos.jpg);
+	opacity: 0.9;
 	background-color: black;
 	display: grid;
 	grid-template-columns: auto 0px;
