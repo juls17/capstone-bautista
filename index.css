@@ -43,7 +43,7 @@ nav {
 	animation-name:  good3;
 	animation-duration: 4s;
 	animation-delay: 0s;
-	transition: transform 250ms;
+	transition: transform 300ms;
 	filter: drop-shadow(0 0 0.75rem rgb(15, 82, 186));
 }
 @keyframes good3 {
@@ -89,7 +89,7 @@ nav {
 }
 
 #hi {
-	margin-top: 2.5rem;
+	margin-top: 20vh;
 	font-size: 5rem;
 	color: #ADD8E6;
 }
@@ -113,6 +113,7 @@ nav {
 	color: #F0FFFF;
 }
 #sH3 {
+	height: 10vh;
 	font-size: 5rem;
 	color: #F0FFFF;
 }
@@ -125,30 +126,64 @@ nav {
 #gitbash {
 	background-color: #008080;
 	color: #F0FFFF;
-	width: 17rem;
 	margin-bottom: 2rem;
 }
 #ST {
 	background-color: #008080;
 	color: #F0FFFF;
-	width: 17rem;
 	margin-bottom: 2rem;
 }
 #Html {
 	background-color: #008080;
 	color: #F0FFFF;
-	width: 17rem;
 	margin-bottom: 2rem;
 }
 #css {
 	background-color: #008080;
 	color: #F0FFFF;
-	width: 17rem;
 	margin-bottom: 2rem;
 }
 #bsrap {
 	background-color: #008080;
 	color: #F0FFFF;
-	width: 17rem;
 	
+}
+#fb {
+	background-color: white;
+	border-radius: 50%;
+	height: 100px;
+	width: 100px;
+	margin-top: 2rem;
+	
+}
+#rowb {
+	margin-bottom: 15vh;
+}
+#em {
+	background-color: white;
+	border-radius: 50%;
+	height: 100px;
+	width: 100px;
+	margin-top: 2rem;
+}
+#dc {
+	background-color: white;
+	height: 100px;
+	width: 100px;
+	border-radius: 50%;
+	margin-top: 2rem;
+}
+#gh {
+	background-color: white;
+	height: 100px;
+	width: 100px;
+	border-radius: 50%;
+	margin-top: 2rem;
+}
+#li {
+	background-color: white;
+	height: 100px;
+	width: 100px;
+	border-radius: 50%;
+	margin-top: 2rem;
 }
