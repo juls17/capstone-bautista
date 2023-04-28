@@ -37,7 +37,7 @@ nav {
 #good3 {
 	height: 500px;
 	width: 600px;
-	margin-top: 10vh;
+	margin-top: 13vh;
 	position: relative;
 	opacity: 0.75;
 	animation-name:  good3;
@@ -54,7 +54,7 @@ nav {
 #good3:hover {
 	height: 500px;
 	width: 600px;
-	margin-top: 10vh;
+	margin-top: 13vh;
 	position: relative;
 	transform: translateY(-10px);
 	filter: drop-shadow(0 0 0.75rem rgb(167, 199, 231));
@@ -86,6 +86,22 @@ nav {
   background: rgb(70, 130, 180);
   border-radius: 100px;
   white-space: nowrap;
+}
+.totop:hover {
+  --offset: 50px;
+  position: sticky;
+  bottom: 20px;      
+  margin-right:10px; 
+  place-self: end;
+  margin-top: calc(100vh + var(--offset));
+  text-decoration: none;
+  padding: 10px;
+  font-family: sans-serif;
+  color: #F0FFFF;
+  background: rgb(70, 130, 180);
+  border-radius: 100px;
+  white-space: nowrap;
+  filter: drop-shadow(0 0 0.75rem rgb(167, 199, 231));
 }
 
 #hi {
@@ -122,68 +138,121 @@ nav {
 	background-color: #008080;
 	color: #F0FFFF;
 	width: 30rem;
+	border-radius: 10px;
 }
+#prflio:hover {
+	background-color: #008080;
+	color: #F0FFFF;
+	width: 30rem;
+	border-radius: 10px;
+	filter: drop-shadow(0 0 0.75rem rgb(167, 199, 231));
+}
+
 #gitbash {
 	background-color: #008080;
 	color: #F0FFFF;
 	margin-bottom: 2rem;
+	border-radius: 30px;
 }
 #ST {
 	background-color: #008080;
 	color: #F0FFFF;
 	margin-bottom: 2rem;
+	border-radius: 30px;
 }
 #Html {
 	background-color: #008080;
 	color: #F0FFFF;
 	margin-bottom: 2rem;
+	border-radius: 30px;
 }
 #css {
 	background-color: #008080;
 	color: #F0FFFF;
 	margin-bottom: 2rem;
+	border-radius: 30px;
 }
 #bsrap {
 	background-color: #008080;
 	color: #F0FFFF;
+	border-radius: 30px;
 	
 }
 #fb {
 	background-color: white;
-	border-radius: 50%;
+	border-radius: 30%;
 	height: 100px;
 	width: 100px;
 	margin-top: 2rem;
-	
+}
+#fb:hover {
+	background-color: white;
+	border-radius: 30%;
+	height: 100px;
+	width: 100px;
+	margin-top: 2rem;
+	filter: drop-shadow(0 0 0.75rem rgb(167, 199, 231));
 }
 #rowb {
 	margin-bottom: 15vh;
 }
 #em {
 	background-color: white;
-	border-radius: 50%;
+	border-radius: 30%;
 	height: 100px;
 	width: 100px;
 	margin-top: 2rem;
+}
+#em:hover {
+	background-color: white;
+	border-radius: 30%;
+	height: 100px;
+	width: 100px;
+	margin-top: 2rem;
+	filter: drop-shadow(0 0 0.75rem rgb(167, 199, 231));
 }
 #dc {
 	background-color: white;
 	height: 100px;
 	width: 100px;
-	border-radius: 50%;
+	border-radius: 30%;
 	margin-top: 2rem;
+}
+#dc:hover {
+	background-color: white;
+	height: 100px;
+	width: 100px;
+	border-radius: 30%;
+	margin-top: 2rem;
+	filter: drop-shadow(0 0 0.75rem rgb(167, 199, 231));
 }
 #gh {
 	background-color: white;
 	height: 100px;
 	width: 100px;
-	border-radius: 50%;
+	border-radius: 30%;
 	margin-top: 2rem;
+}
+#gh:hover {
+	background-color: white;
+	height: 100px;
+	width: 100px;
+	border-radius: 30%;
+	margin-top: 2rem;
+	filter: drop-shadow(0 0 0.75rem rgb(167, 199, 231));
 }
 #li {
 	background-color: white;
 	height: 100px;
 	width: 100px;
-	border-radius: 50%;
+	border-radius: 30%;
 	margin-top: 2rem;
+}
+#li:hover {
+	background-color: white;
+	height: 100px;
+	width: 100px;
+	border-radius: 30%;
+	margin-top: 2rem;
+	filter: drop-shadow(0 0 0.75rem rgb(167, 199, 231));
 }
